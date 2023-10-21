@@ -1,0 +1,115 @@
+<!--This is my "Made from scratch" page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Scratch Page</title>
+    <!--Set up the head icon-->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <!--Linking the css style sheet-->
+    <link href="../css/from_scratch_styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Navbar setup -->
+    <nav class="navbar">
+        <div>
+            <ul class="nav-ulist">
+                <li class="nav-list"><a href="../index.html" class="nav-button">Index Page</a></li>
+                <li class="nav-list active"><a href="#" class="nav-button">From Scratch Page</a></li>
+                <li class="nav-list" style="float: right;"><a href="#lists" class="nav-button">Jump to Lists (on page)</a></li>
+                <li class="nav-list" style="float: right;"><a href="#viz1697833456408" class="nav-button">Tableau (on page)</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Container for page header -->
+    <div class="header">
+        <h1>Welcome to the "From Scratch" Page!</h1>
+    </div>
+
+
+
+
+    <!-- Embedded video div -->
+    <div class="video-body">
+        <iframe src="https://www.youtube.com/embed/ncXOpgSdGaw" title="Ty Petty - Instrumental Music Sterling Scholar" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+
+
+
+    <!-- Main body text container -->
+    <div class="mainbody" id="lists">
+        <img class="picture" src="../assets/img/typetty_senior_picture.jpg" alt="Ty Petty's Senior Picture" width="300">
+        <h3>This is the embedded lists I made for the page:</h3>
+        <ol>
+            <li>High School Bands
+                <ul>
+                    <li>Crescent Super Band</li>
+                    <li>The Voodoo Orchestra</li>
+                    <li>La Onda Caribena</li>
+                    <li>American Fork High School</li>
+                    <li>Payson High School</li>
+                </ul>
+            </li>
+            <li>College Bands
+                <ul>
+                    <li>BYU Synthesis</li>
+                    <li>BYU Jazz Combo</li>
+                    <li>BYU Wind Symphony</li>
+                    <li>BYU Symphonic Band</li>
+                </ul>
+            </li>
+            <li>Programming Languages Known
+                <ul>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>VBA</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+
+
+    <!-- Tableau Live graph container -->
+    <div class='tableauPlaceholder' id='viz1697833456408' style="position: relative;">
+        <noscript>
+            <a href='#'>
+                <img alt='Internet and Mobile Phone Usage per Capita' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16975125409240&#47;Technology&#47;1_rss.png' style='border: none'>
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+            <param name='embed_code_version' value='3'>
+            <param name='site_root' value=''>
+            <param name='name' value='WorldIndicators_16975125409240&#47;Technology'>
+            <param name='tabs' value='no'>
+            <param name='toolbar' value='yes'>
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16975125409240&#47;Technology&#47;1.png'>
+            <param name='animate_transition' value='yes'>
+            <param name='display_static_image' value='yes'>
+            <param name='display_spinner' value='yes'>
+            <param name='display_overlay' value='yes'>
+            <param name='display_count' value='yes'>
+            <param name='language' value='en-US'>
+        </object>
+    </div>
+    <script>
+        var divElement = document.getElementById('viz1697833456408');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+
+</body>
+</html>
